@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+<head>
+    {% load static %}
+    {% block title %}
+    <title>About</title>
+    {% endblock title %}
+</head>
+{% block content %}
+<h1>About Page</h1>
+<img src="{% static 'assets/Icon.png' %}" alt="Profile Image" />
+{% endblock content %}

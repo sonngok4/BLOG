@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+a::after {
+    text-decoration: none;
+    color: chocolate;
+}
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+}
+header {
+    margin-bottom: 2rem;
+    display: flex;
+}
+header h1 a {
+    color: red;
+    text-decoration: none;
+}
+.nav-left {
+    margin-right: auto;
+}
+.nav-right {
+    display: flex;
+    flex-direction: column;
+}
+.post-entry {
+    margin-bottom: 2rem;
+}
+.post-entry h2 {
+    margin: 0.5rem 0;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.post-entry h2 {
+    color: chocolate;
+}
+.post-entry h2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
