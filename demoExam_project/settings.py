@@ -140,7 +140,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK_ALLOWED = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
